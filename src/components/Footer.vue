@@ -1,51 +1,32 @@
 <template>
     <section class="footer">
       <div class="footer-row">
-        <div class="footer-col">
-          <h4>Info</h4>
-          <ul class="links">
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Compressions</a></li>
-            <li><a href="#">Customers</a></li>
-            <li><a href="#">Service</a></li>
-            <li><a href="#">Collection</a></li>
-          </ul>
-        </div>
 
         <div class="footer-col">
           <h4>Explore</h4>
           <ul class="links">
-            <li><a href="#">Free Designs</a></li>
-            <li><a href="#">Latest Designs</a></li>
-            <li><a href="#">Themes</a></li>
-            <li><a href="#">Popular Designs</a></li>
-            <li><a href="#">Art Skills</a></li>
-            <li><a href="#">New Uploads</a></li>
+            <li><a href="/">Home</a></li>
+            <li><a href="/blogs">Blogs</a></li>
+            <!-- <li><a href="#">Themes</a></li> -->
           </ul>
         </div>
 
         <div class="footer-col">
-          <h4>Legal</h4>
+          <h4>Login / Register</h4>
           <ul class="links">
-            <li><a href="#">Customer Agreement</a></li>
-            <li><a href="#">Privacy Policy</a></li>
-            <li><a href="#">GDPR</a></li>
-            <li><a href="#">Security</a></li>
-            <li><a href="#">Testimonials</a></li>
-            <li><a href="#">Media Kit</a></li>
+            <li><a href="/login">Login</a></li>
+            <li><a href="/register">Register</a></li>
           </ul>
         </div>
 
         <div class="footer-col">
-          <h4>Newsletter</h4>
+          <h4>FireBlogs</h4>
           <p>
-            Subscribe to our newsletter for a weekly dose
-            of news, updates, helpful tips, and
-            exclusive offers.
+            FireBlogs is more than just a blogging platform—it's a community of passionate writers and readers. We believe everyone has a story to tell
           </p>
           <form action="#">
             <input type="text" placeholder="Your email" required>
-            <button type="submit">SUBSCRIBE</button>
+            <button type="submit" style="color: black;">SUBSCRIBE</button>
           </form>
           <div class="icons">
             <i class="fa-brands fa-facebook-f"></i>
@@ -88,7 +69,7 @@ export default {
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 3.5rem;
-  padding: 60px;
+  padding: 35px 60px;
 }
 
 .footer-row .footer-col h4 {

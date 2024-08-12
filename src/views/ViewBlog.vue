@@ -47,6 +47,13 @@ export default {
         img{
             width: 100%;
             margin-bottom: 32px;
+            max-width: 100% !important;
         }
+    }
+    .ql-editor img{
+        max-width: 100%;
+    }
+    .post-view .ql-editor img{
+        max-width: 100%;
     }
 </style>

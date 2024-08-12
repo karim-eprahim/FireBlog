@@ -159,6 +159,7 @@ button,
   font-size: 12px;
   color: red;
 }
+
 .blog-card-wrap {
   position: relative;
   padding: 80px 16px;
@@ -253,14 +254,22 @@ button,
     height: 100%;
     overflow: scroll;
   }
-  .ql-editor{
+
+  .ql-editor {
     padding: 20px 16px 36px;
   }
 }
-.blog-actions{
+
+.blog-actions {
   margin-top: 32px;
-  button{
+
+  button {
     margin-right: 16px;
   }
+}
+
+.post-view .ql-editor img {
+  max-width: 100% !important;
+  max-height: 100vh !important;
 }
 </style>
